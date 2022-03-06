@@ -1,0 +1,39 @@
+*{
+    color:blue;
+}
+
+p{
+    color:chocolate;
+    border: 1px solid red;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    float: right;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+#online{
+    text-align: right;
+       
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-transform: capitalize;
+
+}
+a:link{
+    color:blue;
+}
+
+a:visited{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:aqua;
+}
