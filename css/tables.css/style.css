@@ -1,0 +1,26 @@
+table,thead,tbody,th,td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+
+tr{
+    text-align: center;
+}
+td,th{
+    padding: 15px;
+}
+th{
+    background-color: chartreuse;
+}
+td:hover{
+    background-color: aqua;
+}
+tr:nth-child(even) {
+    background-color: chocolate;
+}
+td:nth-child(even) {
+    background-color: chocolate;
+}
