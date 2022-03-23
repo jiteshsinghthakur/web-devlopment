@@ -1,0 +1,29 @@
+
+h2
+{
+    text-align: center;
+
+    line-height: 1;
+    
+    font-size: 8em;
+    
+    font-family: sans-serif;
+    
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIWGVJG1jiIeyabfDSXdlaW9R1AVMapUFmJ5TfNl4EuopDHcz3);
+    
+    -webkit-animation: background-animation 12s linear infinite;
+    
+    -webkit-background-clip:text;
+    
+    -webkit-text-fill-color:transparent
+}
+
+@keyframes background-animation
+{
+
+    0%{background-position:  0 0}
+
+    100%{background-position:  100% 50%
+}
+
+    

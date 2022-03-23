@@ -28,20 +28,29 @@ h1{
     align-items: center;
     border-radius: 5px;
     box-shadow: 3px 3px 5px  rgb(248, 75, 141) ;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRIWGVJG1jiIeyabfDSXdlaW9R1AVMapUFmJ5TfNl4EuopDHcz3);
     
+    -webkit-animation: background-animation 5s linear infinite;
     
+    -webkit-background-clip:text;
     
+    -webkit-text-fill-color:transparent
 }
+@keyframes background-animation
+	{
+		100%{background-position: 100%}
+	}
 h1::before{
     content: '';
     position: absolute;
     width: 100px;
     height: 3px;
-    background-color: rgb(190, 76, 93);
+    background-color: rgb(6, 212, 240);
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
     animation: animate 2s linear infinite;
+    
 }
 @keyframes animate{
     0%{
@@ -66,10 +75,10 @@ h1::before{
 }
 h3{
     height: 100%;
-    background-color: rgb(221, 221, 221);
+    background-color: rgba(255, 255, 255, 0.562);
     line-height: 60px;
     padding: 0 50px;
-    color: black;
+    color: rgb(22, 144, 175);
 }
 label{
     display: inline-block;
