@@ -12,10 +12,14 @@ body{
   padding: 30px;
   color:black;
   border:#C2E6F4;
-  border-block-color: #C2E6F4;
+  /* border-block-color: #C2E6F4; */
   border-style: solid;
   border-radius: 20px;
   background-color: whitesmoke;
   justify-content: center
 }
+
+/* .app1{ */
+  /* background-color: #C2E6F4; */
+/* } */
 
